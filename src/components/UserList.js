@@ -5,9 +5,11 @@ const UserList=(props)=>{
     return (
         <div className={classes.users}>
           <ul>
-            {props.users.map((user)=>{
+            {props.users.map((user,index)=>{
               return (
-                <li key={user.id}>
+                <li key={user.id} 
+                draggable 
+                >
                   {user.dec}{" "}
                   <button
                     type="button"
