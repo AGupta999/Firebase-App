@@ -1,0 +1,35 @@
+
+  
+  .users ul {
+    list-style: none;
+  }
+  
+  .users li {
+    display:inline-flex;
+    background-color: white;
+    margin: 20px;
+    padding: 0.5rem;
+    overflow: auto;
+    max-height: 150px;
+    max-width: 250px;
+  }
+
+  .users li:hover .delete{
+    display: block;
+  }
+
+  .users li .delete{
+    display:none;
+  }
+
+  .delete {
+    color: rgb(53, 52, 52);
+    height: 15px;
+    margin-top: -6px;
+    opacity:0.5;
+    border: none;
+  }
+
+
+
+ 
